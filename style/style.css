@@ -1,0 +1,289 @@
+/*Font Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* Banner Section Style */
+.banner{
+  margin: 80px auto;
+ background-color: #C6E4D6;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border-radius: 24px ;
+ width: 1280px;
+ height: 560px;
+}
+.title-bangladesh{
+    color: #0E0E0E;
+    opacity: 50%;
+    font-size: 24px;
+}
+.banner-details{
+    margin-left: 100px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+   
+    
+}
+.banner-heading{
+    font-size: 50px;
+}
+.primary-btn{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border-style: none;
+   color: white;
+   font-size: 18px;
+}
+.hero-image{
+    width: 474.03px;
+    height: 400px;
+    margin-right: 100px;
+   
+}
+/*Main Section */
+main{
+    margin: 80px auto ;
+    width: 1280px;
+ height: 560px;
+}
+/*Cards Design*/
+.vision-cards{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.cards-digital{
+    width: 410px;
+    height: 325px;
+    background-color: #bbc7dd;
+    border-radius: 16px;
+    align-items: center;
+}
+.cards-green{
+    width: 410px;
+    height: 325px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.cards-modern{
+    width: 410px;
+    height: 325px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+
+.card-pic{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+.card-details{
+    width: 346px;
+    height: 172px;
+    margin: 32px;
+
+}
+.sec-btn{
+    
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    margin-left: 32px;
+    margin-top: 30px;
+}
+.card-brief{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#card-title{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.inside-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dr-speech {
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x:10px;
+
+    margin-top: 40px;
+    padding: 40px;
+    background-color: rgba(237, 237, 237, 0.904);
+    /* box-shadow: 10px 10px 10px 5px rgba(248, 248, 244, 0.976); */
+    border-style: none;
+    border-radius: 12px;
+    
+}
+.recent-news{
+    margin-top: 80px;
+    
+}
+.recent-news-card{
+    display:flex;
+    width: 1280px;
+    height: 402px;
+    
+    background-color: rgba(237, 237, 237, 0.904) ;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.sattelite-image{
+    height: 306px ;
+    width: 408px;
+    border-radius: 20px;
+    margin: 40px;
+}
+.recent-news-card-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 1280px;
+    height: 402px;
+   
+    background-color: rgba(237, 237, 237, 0.904) ;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+.recent-news-details{
+    
+    margin-top: 40px;
+    
+    
+}
+.recent-news-details-reverse{
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    
+    
+}
+.news-btn{
+    width: 139px;
+    height: 48px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border-style: none;
+   color: white;
+   font-size: 18px;
+  
+}
