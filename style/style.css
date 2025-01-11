@@ -114,6 +114,23 @@
     
     
 }
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 24px ;
+  margin-bottom: 24px;
+}
+.sign-btn{
+  width: 116px;
+  height: 52px;
+  color: #006A50;
+  border-style: solid;
+  border-radius: 8px;
+  font-weight: bold;
+
+}
 /* Banner Section Style */
 .banner{
   margin: 80px auto;
